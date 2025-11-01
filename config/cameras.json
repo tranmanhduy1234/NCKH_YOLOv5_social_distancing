@@ -1,0 +1,56 @@
+{
+  "cameras": [
+    {
+      "camera_id": "CAM001",
+      "source": "D:\\nghien cuu khoa hoc\\NCKH_YOLOv5_social_distancing\\video\\Video1.mp4",
+      "position": "Position_1",
+      "enable_recording": true,
+      "recording_path": "./recordings",
+      "confidence_threshold": 0.4,
+      "social_distance_threshold": 2,
+      "warning_duration": 1,
+      "frame_height": 720,
+      "frame_width": 1280,
+      "acreage": 50
+    },
+    {
+      "camera_id": "CAM002",
+      "source": "D:\\nghien cuu khoa hoc\\NCKH_YOLOv5_social_distancing\\video\\Video2.mp4",
+      "position": "Position_2",
+      "enable_recording": true,
+      "recording_path": "./recordings",
+      "confidence_threshold": 0.4,
+      "social_distance_threshold": 2,
+      "warning_duration": 1,
+      "frame_height": 720,
+      "frame_width": 1280,
+      "acreage": 50
+    },
+    {
+      "camera_id": "CAM003",
+      "source": "D:\\nghien cuu khoa hoc\\NCKH_YOLOv5_social_distancing\\video\\Video3.mp4",
+      "position": "Position_3",
+      "enable_recording": true,
+      "recording_path": "./recordings",
+      "confidence_threshold": 0.4,
+      "social_distance_threshold": 2,
+      "warning_duration": 1,
+      "frame_height": 720,
+      "frame_width": 1280,
+      "acreage": 50
+    },
+    {
+      "camera_id": "CAM004",
+      "source": "D:\\nghien cuu khoa hoc\\NCKH_YOLOv5_social_distancing\\video\\Video3.mp4",
+      "position": "Position_4",
+      "enable_recording": true,
+      "recording_path": "./recordings",
+      "confidence_threshold": 0.4,
+      "social_distance_threshold": 2,
+      "warning_duration": 1,
+      "frame_height": 720,
+      "frame_width": 1280,
+      "acreage": 50
+    }
+  ]
+}
