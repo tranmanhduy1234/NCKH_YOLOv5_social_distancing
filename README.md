@@ -319,7 +319,7 @@ python -c "import cv2; print(cv2.VideoCapture(\"video//videotest.mp4\").isOpened
 
 ## 👥 Tác giả
 
-- **TranDoManhDuy** - *Developer* - [GitHub](https://github.com/TranDoManhDuy)
+- **TranDoManhDuy** - *Developer* - [GitHub](https://github.com/tranmanhduy1234)
 - **nyvantran** - *Developer* - [GitHub](https://github.com/nyvantran)
 - **HieuITMHG** - *Developer* - [GitHub](https://github.com/HieuITMHG);
 
