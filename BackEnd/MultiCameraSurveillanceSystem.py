@@ -29,7 +29,7 @@ class MultiCameraSurveillanceSystem(QObject):
         self.logger = logging.getLogger("SurveillanceSystem")
         self.batch_processor = BatchProcessor(batch_size=self.batch_size)
         self.load_config()
-        self.text_to_speech = TextToSpeech(voice="vi-VN-NamMinhNeural", rate="+50%", pitch="+50Hz")
+        # self.text_to_speech = TextToSpeech(voice="vi-VN-NamMinhNeural", rate="+50%", pitch="+50Hz")
 
     def load_config(self):
         try:
@@ -93,6 +93,6 @@ class MultiCameraSurveillanceSystem(QObject):
         for worker in self.camera_workers.values():
             if worker.is_alive():
                 worker.join(timeout=2.0)
-        self.text_to_speech.stop()
+        # self.text_to_speech.stop()
         self.logger.info("Surveillance system stopped.")
         self.system_stopped.emit()
